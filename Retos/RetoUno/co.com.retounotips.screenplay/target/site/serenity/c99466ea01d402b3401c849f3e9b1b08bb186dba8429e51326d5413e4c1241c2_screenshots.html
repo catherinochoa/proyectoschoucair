@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1999a623727c89ea3b4119bb36c3a6c064408732bdfbab0316a99daec474928a.html">Registrar Un Usuario En Automation Demo Site</a></span>
+                > <span class="truncate-60"><a
+                    href="c99466ea01d402b3401c849f3e9b1b08bb186dba8429e51326d5413e4c1241c2.html">Realizar el registro en la p&aacute;gina Automation Demo Site </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-02-2019 10:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registrar Un Usuario En Automation Demo Site </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario 
+Quiero realizar el registro en Automation Demo Site
+A través del diligenciamiento de un formulario
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="527a5f8787a28bf57db4831cd3430700e925184bbcf40a899dcb690ccb8b5555.html">Reto1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar el registro en la p&aacute;gina Automation Demo Site
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8bb6af59d6c8149d2d25892ac4ceb2548fec3d2574e15197d8945dc7c3e33f66.png" title="Dado que Carlos quiere acceder a Automation Demo Site" width="1366"/>
+                <img src="43c2fe34df5ef8a30b88a781f0885cc8e87b58be0882bef398d5ff4cbb0264b5.png" title="Carlos opens the Automation home page" width="1366"/>
+                <img src="3433355a45795dde5122c198048e213a333f140e140f458d52bc7df98c6ec5cd.png" title="Cuando &eacute;l realiza el registro en la p&aacute;gina de sus datos
+| nombre | apellido | direccion | correo | celular | genero | actividades | idiomas | habilidades | pais | seleccionar_pais | ano_cumpleanos | mes_cumpleanos | dia_cumpleanos | contrasena | confirmar_contrasena |
+| Santiago | Rios | Cra 8 N 8 80 | santiago@yahoo.es | 3117798063 | Male | Movies | Spanish | C++ | Colombia | Japan | 2000 | July | 15 | Abc123@ | Abc123@ |" width="1366"/>
+                <img src="f62206166450902596118580f2f9525a8566702fc291475bcac0ff168c7d1e0c.png" title="Carlos clicks on El bot&oacute;n lleva al formulario de registro" width="1366"/>
+                <img src="20f004a9729432105a5b44518f1fe22307486450c1e3ba49f8a69fdc5c6bb809.png" title="Carlos enters 'Santiago' into Campo para ingresar el nombre" width="1366"/>
+                <img src="8ce45d4b9ed9c85d1a97a807924eb0a93d095c0911cb72ece64ff0fa71e8b643.png" title="Carlos enters 'Rios' into Campo para ingresar el apellido" width="1366"/>
+                <img src="23170743d880ce465324ff6f8657b22a7c9a475d89ecdb8f7c4b9ac587e953b2.png" title="Carlos enters 'Cra 8 N 8 80' into Campo para ingresar la direcci&oacute;n" width="1366"/>
+                <img src="244aeb987919cd4dc001ac864e8494497a17d0df11aeb00be8bf30b8ffc3512b.png" title="Carlos enters 'santiago@yahoo.es' into Campo para ingresar el correo electr&oacute;nico" width="1366"/>
+                <img src="3402fb4aadef9fa0e3d62254d5d898e8b2a5b3183a31b130b3e62537898e66d0.png" title="Carlos enters '3117798063' into Campo para ingresar el tel&eacute;fono" width="1366"/>
+                <img src="bc6181678b36d57fd87425487c6eb7f0cea9075d99e916148b86984b6895aaa9.png" title="Carlos clicks on Opciones para seleccionar el g&eacute;nero" width="1366"/>
+                <img src="a81c9e4c4c382347872ce3bed4976cd256705077f3d89b03be485f69143fe37e.png" title="Carlos clicks on Listado para seleccionar las actividades" width="1366"/>
+                <img src="2edc5a9bb172baea2f0cf5d6fcf25921d3121c5b24442c7299e5dcf7a28335f8.png" title="Carlos clicks on Campo que muestra los idiomas seleccionados" width="1366"/>
+                <img src="e448a36b5c7a1206ad639b8bd306acc322aaaf1a051596a8de78b6ca50b6ab1f.png" title="Carlos clicks on &Aacute;rea de trabajo (espacio en blanco" width="1366"/>
+                <img src="711b17b11f6033328f62b4b3c33d9962d493830ac4f9cef3a484a87897fdf4df.png" title="Carlos select C++ on Lista para seleccionar habilidades" width="1366"/>
+                <img src="54fca35ed164018323886b3d0d475cfa1a7d2c337db746ec5d3b2e8e8d13f26d.png" title="Carlos select Colombia on Lista para seleccionar el pa&iacute;s" width="1366"/>
+                <img src="30a5a871029c7480edea8b08b4dc3adec6089696b6d54fe7c77307f825555fe2.png" title="Carlos select Japan on Seleccionar el pais" width="1366"/>
+                <img src="da2f1b2ff8fa5275a95b8cf2864c41855ab1e7ff459fd6b258bbf880218a1218.png" title="Carlos select 2000 on Lista para seleccionar el a&ntilde;o" width="1366"/>
+                <img src="2033fc37126266b1465b3a091ecb5a28887d9cbd6592195501ad0a6a207ff561.png" title="Carlos select July on Lista para seleccionar el mes" width="1366"/>
+                <img src="97ba0a66dcad26f7a59bab0338932c4b0bb798021912c0dd5e8f58190af76f02.png" title="Carlos select 15 on Lista para seleccionar el d&iacute;a" width="1366"/>
+                <img src="1d5248226b76e023e930bb1b9229a69e4216601c5daaae11de8d9fdc5236f1fe.png" title="Carlos enters 'Abc123@' into Campo para ingresar la contrase&ntilde;a" width="1366"/>
+                <img src="47ecbfc5fe16ae240703f616c1d4daacbb1d8549e57dc7517dedbca8c54b414a.png" title="Carlos enters 'Abc123@' into Campo para confirmar la contrase&ntilde;a" width="1366"/>
+                <img src="3433355a45795dde5122c198048e213a333f140e140f458d52bc7df98c6ec5cd.png" title="Carlos clicks on El bot&oacute;n permite regsitrar el usuario e ingresar a la p&aacute;gina" width="1366"/>
+                <img src="340541e514f2365ad408157967c0401362ea1ed9c4ff00e3eaed68e65669f8a8.png" title="Entonces &eacute;l verifica que se carga la pantalla con texto - Double Click on Edit Icon to EDIT the Table Row." width="1366"/>
+                <img src="340541e514f2365ad408157967c0401362ea1ed9c4ff00e3eaed68e65669f8a8.png" title="Then el registro should be '- Double Click on Edit Icon to EDIT the Table Row.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

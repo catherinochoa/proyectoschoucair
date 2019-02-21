@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Registrar un usuario en Automation Demo Site" skipped="0" tests="1" time="37.4" timestamp="2019-02-06 09:33:04"><testcase name="Realizar el registro en la página Automation Demo Site"><error message="Expected condition failed: waiting for By.xpath: /html/body/section/div[1]/div/div[2]/h4[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0GXFK0', ip: '172.17.27.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: /html/body/section/div[1]/div/div[2]/h4[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0GXFK0', ip: '172.17.27.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: /html/body/section/div[1]/div/div[2]/h4[1] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0GXFK0', ip: '172.17.27.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown&#13;
+co.com.retounotips.screenplay.stepdefinitions.RegistroUsuariosStepDefinitions.élVerificaQueSeCargaLaPantallaConTextoDoubleClickOnEditIconToEDITTheTableRow(RegistroUsuariosStepDefinitions.java:43)&#13;
+✽.él verifica que se carga la pantalla con texto - Double Click on Edit Icon to EDIT the Table Row.(src/test/resources/features/registro_usuario.feature:16)&#13;
+</system-err></testcase></testsuite>

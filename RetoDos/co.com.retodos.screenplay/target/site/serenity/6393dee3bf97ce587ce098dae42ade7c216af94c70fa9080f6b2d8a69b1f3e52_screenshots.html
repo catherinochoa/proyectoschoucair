@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ec0b825028259ce14e51f23eeef9ae5279dadcf6455d5592458345018fd94d08.html">Registrar Un Empleado En Orange</a></span>
+                > <span class="truncate-60"><a
+                    href="6393dee3bf97ce587ce098dae42ade7c216af94c70fa9080f6b2d8a69b1f3e52.html">Realizar el registro de un empleado en Orange HR </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-02-2019 09:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registrar Un Empleado En Orange </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario
+Quiero ingresar a la aplicación Orange HR
+Para registrar un nuevo empleado
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="dc3e4cd91f73ea742a70272513f1fb388d598df375f5e5af2ba1c7a4a44ac2dd.html">Reto2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar el registro de un empleado en Orange HR
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="cbb76cd7be2ddd1dfeb69af3fdbdc5358c12d7242cedccb62f5ad82bd5b66247.png" title="Dado que Juan necesita crear un empleado en el OrageHR" width="1366"/>
+                <img src="c2250c28ef5d58f95e6cc66d091467d64abe8889c43c0dace5b4268ef0800841.png" title="Juan opens the Orange pagina inicio sesion" width="1366"/>
+                <img src="d79fe0e36a2d88a112b5e1bfc8d1d8e1c26f1b89d264c4bf2c08cf8bd542a5c9.png" title="Juan enters 'Admin' into El campo permite ingresar el usuario" width="1366"/>
+                <img src="c2aaa729ec4fa9f2b44491b6c9f7a353654752e396ac163edf6f6d5b08f099c2.png" title="Juan enters '@NF8KRpfj4' into El campo permite ingresar la contrase&ntilde;a" width="1366"/>
+                <img src="4d0fde3e7cc367feb51cb1947d8e950d45fcad385f41fb73c4080313360ab2cc.png" title="Juan clicks on El bot&oacute;n que permite iniciar sesi&oacute;n en la p&aacute;gina" width="1366"/>
+                <img src="3d5fb932c9149a2ba953e5b66203eb5f145343244086c992d0ea0365958c2be4.png" title="Cuando el realiza el ingreso del registro de la aplicaci&oacute;n
+| primer_nombre | segundo_nombre | apellido | localidad | region | fte | departamento_temporal | tipo_sangre | actividades |
+| Cristian | David | Lopez | London Office | Region-2 | 0.5 | Sub unit-3 | AB | bicicleta |" width="1366"/>
+                <img src="02c72fd57fbe5350a27fc96efac2f953e066f3a5f4ff362b1b6cfec806a77e1e.png" title="Juan clicks on El men&uacute; despliega el m&oacute;dulo de informaci&oacute;n personal" width="1366"/>
+                <img src="2d6fbe39f838c11058ef8913795cc29078f3fae868b19baea72c59bb0d6e836b.png" title="Juan clicks on La opci&oacute;n permite abrir la ventana para agregar la informaci&oacute;n del empleado" width="1366"/>
+                <img src="5d2c8915dfb8717f7a79f48c8c885eb9dfe072930e8c66437d6f90ecbedae7a3.png" title="Juan enters 'Cristian' into Campo para ingresar el nombre" width="1366"/>
+                <img src="fa8c76ff9bfebe9043a01abb541100b73b8974977e0c262673f90ea7fa26bec8.png" title="Juan enters 'David' into Campo para ingresar el segundo nombre" width="1366"/>
+                <img src="c45bfe9159b3b7cbc17ce14019b738ee20d2d23470868d61ef4f2ff9be728673.png" title="Juan enters 'Lopez' into Campo para ingresar el apellido" width="1366"/>
+                <img src="d0a48ae1f9c56e36d73828bd39eca9e3cbb4d83d517dc3f72d142c96868270a8.png" title="Juan clicks on Seleccionar la lista de localidades" width="1366"/>
+                <img src="36d0c810dfb41d6dee0db918ad1f2853a335d2660d90caba02849c6cfa29a4e5.png" title="Juan clicks on //span[contains(text(),'London Office')]" width="1366"/>
+                <img src="75fed0691ab5fa670c5bf39c98dc6f830229ae2b1699b890e3f127f05e308475.png" title="Juan clicks on Bot&oacute;n que permite avanzar en el formulario del nuevo empleado" width="1366"/>
+                <img src="a793cec5de1d1982802450aa54f182bdbcbaea10ea0308ea344e4d46130f398f.png" title="Then Formulario que contiene los datos personales del empleado should be an element that is visible" width="1366"/>
+                <img src="fdee0a6b68a9cd1f7bde96fcce8613b7417b7f5fe71d83e96138997447cdbe2e.png" title="Juan clicks on Bot&oacute;n que permite seguir al paso 2" width="1366"/>
+                <img src="1f185f6042ed947446e18a322c0ca55f17c2288886cdcaa49a666e57301bff69.png" title="Then Formulario que contiene los datos donde ha trabajado el empleado should be an element that is visible" width="1366"/>
+                <img src="b8e4d77e279a07530d47b8ecd504f66574c0d81f94d08f0a64f1bd5b7a75070f.png" title="Juan clicks on Bot&oacute;n que permite seguir al paso 3" width="1366"/>
+                <img src="ee30a2fe6ed501d86193b4b71a39baeb3a3b66066f1184c942120911bfaabc38.png" title="Then Formulario que contiene los datos de otros trabajos del empleado should be an element that is visible" width="1366"/>
+                <img src="937a041fc8aafd7b9b0bb3b7475798e7bbb9c240a52b8086ed0b10ecd84c8ac8.png" title="Juan clicks on Seleccionar la lista regi&oacute;n" width="1366"/>
+                <img src="1c4d4e6589cb303a5856ce0c937dd64591c3d9db1bd02fe49c1c38446e9a4413.png" title="Juan clicks on //span[contains(text(),'Region-2')]" width="1366"/>
+                <img src="7c92b8a5929cda0262894ba6d20a194aab2d74983009f13b8de6577aaffbee59.png" title="Juan clicks on Seleccionar la lista fte" width="1366"/>
+                <img src="e0734b53b6fbb17f37909d43c1de139c42370ea63a84d65f227eac6932e36e4a.png" title="Juan clicks on //span[contains(text(),'5')]" width="1366"/>
+                <img src="04b0530ccc7bfef94db9b8b5fa3d990293a5102effcb0d42bab7a6cad758aa46.png" title="Juan clicks on Seleccionar la lista departamento temporal" width="1366"/>
+                <img src="ec7aa3f407eb566f3963f47ccb19f0844bcf29df34c3f0be3d8e2e46c9be0614.png" title="Juan clicks on //span[contains(text(),'Sub unit-3')]" width="1366"/>
+                <img src="a8c0987809df8c632d4c886b616ce8e64bfc5a7cc5b76a750cc51b5ec9969c7c.png" title="Juan clicks on Bot&oacute;n que permite seguir al paso 4" width="1366"/>
+                <img src="f8c770b291b03d701b7f1f68844d42815aac414d584437a70990943e8cf6d5fb.png" title="Then Formulario que contiene los datos de contacto del empleado should be an element that is visible" width="1366"/>
+                <img src="5f6206e94f456ff2bf79c55cb304d65861b030aca940ef8cb1eefe907d6a80b6.png" title="Juan clicks on Bot&oacute;n que permite seguir al paso 5" width="1366"/>
+                <img src="d62e210e63c259680106986ebdf22121a8f3060e823f0e1cb1e28742af95fa50.png" title="Then Formulario para informaci&amp;oacute;n de supervisores should be an element that is visible" width="1366"/>
+                <img src="45ebfee13649e04ef148de4d996fcff3a2d472cb8e0da92e8f83e0de9abb52f7.png" title="Juan clicks on Bot&oacute;n que permite seguir al paso 6" width="1366"/>
+                <img src="1e9f61fd3677d60bc3c2186d5afb7a41b9f653968cd6d6609a18088b45a94238.png" title="Then Formulario para informaci&amp;oacute;n de subordinados should be an element that is visible" width="1366"/>
+                <img src="86047781d8df1b77ea1a0ea841b21ced3c7f5f8c7e904012e4551cc2d20a5107.png" title="Juan clicks on Bot&oacute;n que permite guardar la informaci&oacute;n en el paso 6" width="1366"/>
+                <img src="076945c78c8d9c1e620171ec72a6e77ce0612534371ec8e1e0d81ae586a00f27.png" title="Then Formulario muestra la informaci&amp;oacute;n con los detalles personales  should be an element that is visible" width="1366"/>
+                <img src="05676d06ecdcd4cd26b4cf2136a0326de6ad9e94bb4ad5562cc4b1f5f81ac5bb.png" title="Juan clicks on Seleccionar el tipo de sangre del empleado" width="1366"/>
+                <img src="b1ff67c0238239f981e766556819b28286c4e128b65e45e0168ca5543d818e41.png" title="Juan clicks on //span[contains(text(),'AB')]" width="1366"/>
+                <img src="ff52d1e75aa60226d839b904f54403a5845a82a4d059e062b9bcce2f5e5af7e2.png" title="Juan enters 'bicicleta' into Ingresar la actividad que le gusta hacer" width="1366"/>
+                <img src="8de0a7c017e81ab08f5b63cb9d143a827c5611b9ddf0463884c830b8fd24d84c.png" title="Juan clicks on Bot&oacute;n guardar informaci&oacute;n importante" width="1366"/>
+                <img src="bbd2a618b399729cb0779f18aa8f51b4c0fdebf6abbf818fc4b249cd4bef8397.png" title="Juan clicks on La opci&oacute;n muestra una tabla con la lista de los empleados registrados" width="1366"/>
+                <img src="bbb464e03bd27a5b2fbe30cb2a7406832c8bfe5cc0cd7d3e419b8105b44a66c6.png" title="Juan clicks on El campor permite ingresar el nombre que se va a buscar" width="1366"/>
+                <img src="c14574fcfd41087cc6a80dd7e45d2ac52e4fbe8aa5e39e88bcacab7161d7820a.png" title="Juan enters 'Cristian Lopez' into El campor permite ingresar el nombre que se va a buscar" width="1366"/>
+                <img src="0f6d37a7cc485dcce4029dc27f443e470eec7b462400e516bed5044b78e42f6d.png" title="Juan clicks on El bot&oacute;n permite buscar el empleado" width="1366"/>
+                <img src="3d5fb932c9149a2ba953e5b66203eb5f145343244086c992d0ea0365958c2be4.png" title="Entonces el visualiza el nuevo empleado Cristian Lopez en el aplicativo" width="1366"/>
+                <img src="3d5fb932c9149a2ba953e5b66203eb5f145343244086c992d0ea0365958c2be4.png" title="Then el nuevo empleado should be 'Cristian Lopez': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

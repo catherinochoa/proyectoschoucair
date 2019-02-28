@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-02-2019 10:44</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-02-2019 14:37</span>
     <br style="clear:left"/>
 </div>
 
@@ -160,9 +160,9 @@ A traves de la pagina web de Vivaair.com/co
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Comprar tiquetes para 1 adulto, 2 ni&ntilde;os y 1 infante
+                                <span class="error-color">Comprar tiquetes para 1 adulto, 2 ni&ntilde;os y 1 infante
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -179,65 +179,115 @@ A traves de la pagina web de Vivaair.com/co
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="No such element exception: no such element: Unable to locate element: {'method':'id','selector':'select2-drop'}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF0GXFK0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\cochoar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}Session ID: 934115197900678c5859d8077c323518*** Element info: {Using=id, value=select2-drop}">
+                            No such element exception: no such element: Unable to locate element: {'method':'id','selector':'select2-drop'}  (Session info: chrome=72.0.3626.119)  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    org.openqa.selenium.NoSuchElementException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;select2-drop&quot;}<br>  (Session info: chrome=72.0.3626.119)<br>  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 0 milliseconds<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF0GXFK0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\cochoar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}<br>Session ID: 934115197900678c5859d8077c323518<br>*** Element info: {Using=id, value=select2-drop}</pre>
+                                    </h5>
+                                    co.com.proyectobase.screenplay.interactions.SeleccionarLista.performAs(SeleccionarLista.java
+                                    :21) <br>
+                                    co.com.proyectobase.screenplay.tasks.IngresarDatosSolicitados.performAs(IngresarDatosSolicitados.java
+                                    :31) <br>
+                                    co.com.proyectobase.screenplay.stepdefinitions.VivaAirStepDefinitions.ingresaTodosLosDatosSolicitados(VivaAirStepDefinitions.java
+                                    :37) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5678451971440287738.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f14a840903f08fe622faec527bfb7ed1743649b74b8ea28bdbf83d131ca26250.png" title="Dado que Juan desea comprar tiquetes aereos" width="1366"/>
-                <img src="f14a840903f08fe622faec527bfb7ed1743649b74b8ea28bdbf83d131ca26250.png" title="Juan opens the Pagina principal" width="1366"/>
-                <img src="a6697c575f1f493da4445eab1104db255102f953a9e8a11f5f880509c8301389.png" title="Cuando el ingresa sus preferencias
+                <img src="0a76a44fcbe72c5d66a509d896a3656e019b5063c4ff3ee942f06e2f70121263.png" title="Dado que Juan desea comprar tiquetes aereos" width="1366"/>
+                <img src="0a76a44fcbe72c5d66a509d896a3656e019b5063c4ff3ee942f06e2f70121263.png" title="Juan opens the Pagina principal" width="1366"/>
+                <img src="8e6e2ccf0948a78045e5567b06dd261aeb2f41dba076c7f2a86cf1ca7bde9d07.png" title="Cuando el ingresa sus preferencias
 | viajeDe | origen | destino | adultos | ni&ntilde;os | infantes | fechaIda | fechaRegreso | preciosPor | moneda |
 | Ida | Medell&iacute;n, Jos&eacute; Mar&iacute;a C&oacute;rdova (MDE) | Bogot&aacute; (BOG) | 2 | 1 | 1 | 28/02/2019 | 28/02/2019 | Precios del mes | USD |" width="1366"/>
-                <img src="5396178049cfacefd48f3e32f8d98e57ab5526dac241218d3184a295fed8d133.png" title="Juan clicks on RadioButton ida" width="1366"/>
-                <img src="28c86f31e52b944b89a81abbbb0a44e07d942aac6cb057c5a22f1a4bdc788970.png" title="Juan clicks on Ciudad origen" width="1366"/>
-                <img src="0e6769d86a52f7be1c3704ab876de5ac2efeed72be3dce1005c210d60a032f3e.png" title="Juan enters '28/02/2019' into Fecha ida" width="1366"/>
-                <img src="7e8acb88ddf536c1ad01f1f8b19e591433792f934a263b9a303edd874c7037df.png" title="Juan clicks on Ciudad destino" width="1366"/>
-                <img src="fa1115fc19a30d14ab377e3411a30911214121b0452fac537b6f28dd07c1d2c3.png" title="Juan clicks on Radiobutton precios del mes" width="1366"/>
-                <img src="a57e72a5eb1ef0695f229fdad4c75753107b2764596df1d59030c5a1bbae58dd.png" title="Juan clicks on Moneda" width="1366"/>
-                <img src="1fd8172d9d590e4d6c7857a224de73abc264cb37532936c84f16ce04a2d5c838.png" title="Juan clicks on Adultos" width="1366"/>
-                <img src="ae8bc01d2d9d15aee62e21381bc261e63878871c14c06369d183b195c95ec929.png" title="Juan clicks on Ni&ntilde;os" width="1366"/>
-                <img src="fa7c9467ca85e2b72ce1821831d42c4f80ed2965da134f4e7cf883d1df42b233.png" title="Juan clicks on Infantes" width="1366"/>
-                <img src="123f1c2512fcb5963568d3bf851a24b89fb446e5cb6bce70fdbcf110ce4694a3.png" title="Juan clicks on Boton reservar mi vuelo" width="1366"/>
-                <img src="a91b9e42fff83efab452f816fa81cc6aab3c3dc9c4c700587b524c51fc7a340e.png" title="Y el escoge los tiquetes de menor precio" width="1366"/>
-                <img src="ab4b23676cf6dfb3dcaa227671360725ff8292756daae440978f9b5499ca3cf7.png" title="Juan clicks on Boton continuar" width="1366"/>
-                <img src="57def77faafdbd13d47b7c1d27f42b80782785b90edd8ca4493d8e058a9343ba.png" title="Juan clicks on Boton aceptar" width="1366"/>
-                <img src="087c3663986311b3c5d64f11348e21fcc43cfd7687e986704c152a4a8f77f84f.png" title="Y ingresa todos los datos solicitados
+                <img src="51eeabacdf41b31ef5fa48f43e602b801c67402283f3d20939c39a3667a68d74.png" title="Juan clicks on RadioButton ida" width="1366"/>
+                <img src="d3a049081be63abe95bb8fc36e4e48045b8ef901f966b54c800688763f7f2b18.png" title="Juan clicks on Ciudad origen" width="1366"/>
+                <img src="cf8cc07c78c951b7c955822f11780060b6470a8aa41a0b7c195b54b0d824b2de.png" title="Juan enters '28/02/2019' into Fecha ida" width="1366"/>
+                <img src="e648bcbb3ee5f0cb4dae7777b488678e8171a905c2c921bab7da30d66ec9b5c7.png" title="Juan clicks on Ciudad destino" width="1366"/>
+                <img src="4dc74617069d48fd51e057b3fe16b778850adb8e81dbf72043b5c86d78478254.png" title="Juan clicks on Radiobutton precios del mes" width="1366"/>
+                <img src="79870a88b6668fec27b05c5da84a2f8e420c6a5b0baccc2afcafcca3675c9843.png" title="Juan clicks on Moneda" width="1366"/>
+                <img src="a587ff49f8a00ba04e9c835bf45438a95026f9ef318cc75e01c5859144c03bc1.png" title="Juan clicks on Adultos" width="1366"/>
+                <img src="58b24f3ad95cc355b06e9f1d5566fcde8a9fe4c9f1373dd26fab4faf35d4a589.png" title="Juan clicks on Ni&ntilde;os" width="1366"/>
+                <img src="14beb7f5e01499a706a2105925b11ec6a1bd68e9ab1dcab6597fdd1d93856b97.png" title="Juan clicks on Infantes" width="1366"/>
+                <img src="704351aadc660b8d122deb2cd9c0d409fba8267d1fc349fad71b7e3df0a8517c.png" title="Juan clicks on Boton reservar mi vuelo" width="1366"/>
+                <img src="07ab9d10ef1176e965b710dc76eac8244243e9961c57a5ac042dde85265a64de.png" title="Y el escoge los tiquetes de menor precio" width="1366"/>
+                <img src="cd3d9579e09d0e14c38e0596d47c49ba095c2884a3d8c14c6b4ef66a5810ef55.png" title="Juan clicks on Boton continuar" width="1366"/>
+                <img src="97a8c689b9b2e7b43889f8c88f585750db40380f0a4e700bef7b13237222fb6c.png" title="Juan clicks on Boton aceptar" width="1366"/>
+                <img src="935b3ccb3930d5543db2e61948fd554059e7344150a83ba1e8752b3623b297c7.png" title="Y ingresa todos los datos solicitados
 | nombreAdulto1 | apellidoAdulto1 | generoAdulto1 | documentoAdulto1 | correo | confCorreo | celular | nombreAdulto2 | apellidoAdulto2 | generoAdulto2 | documentoAdulto2 | nombreNino | apellidoNino | fechaNino | generoNino | documentoNino | nombreInfante | apellidoInfante | fechaInfante | viajandoCon | noGracias |
 | Roberto | Arias | Masculino | 1152203458 | rob@ct.com | rob@ct.com | 3165898796 | Daniela | Alzate | Femenino | 1214725496 | Carlos | Arias | 12/10/2010 | Masculino | 1568745693 | Andres | Arias | 18/12/2018 | Adulto 2 | No gracias. |" width="1366"/>
-                <img src="dffad9e76f7b214086e007200f6baf3045265e823c25f73402e02fd3b469f8b7.png" title="Juan enters 'Roberto' into Nombre adulto 1" width="1366"/>
-                <img src="ec204a035394ce2eac3a848351c9633993fd0031b440b635d8731c792325ad90.png" title="Juan enters 'Arias' into Apellido adulto 1" width="1366"/>
-                <img src="ad668d1536db9a368f46f9eebe77efb68da932fcea4fbc9fb3312148f914c7d4.png" title="Juan clicks on Genero adulto 1" width="1366"/>
-                <img src="818ae4acdf019f5164ce94fe24bbb37f6abeaac8d54e93548e1facd3edb4b826.png" title="Juan enters '1152203458' into Documento adulto 1" width="1366"/>
-                <img src="0491f15c4c700582aaadac3a457cff8dd7ebc9cc1fe88d9bdd11f47ec4462884.png" title="Juan enters 'rob@ct.com' into Correo" width="1366"/>
-                <img src="d6c284e999afbd5031a945a7e8d5d1382d9824e34db40daa6de02ea89975d0c6.png" title="Juan enters 'rob@ct.com' into Confirmar correo" width="1366"/>
-                <img src="876c2ccc1cbd19bd5b7977667e98de657c4576fdf148815fbf826f0355868ba7.png" title="Juan enters '3165898796' into Celular" width="1366"/>
-                <img src="46e5bbddc1dce9dd0b08f9984a9fb59a606bc5cdce39bf995cbfc929a33594a8.png" title="Juan enters 'Daniela' into Nombre adulto 2" width="1366"/>
-                <img src="c57ed75c1ea8940bd3f0f2b7fc916b02ba7fbcccc3c4a245fcf1f84c9a19541f.png" title="Juan enters 'Alzate' into Apellido adulto 2" width="1366"/>
-                <img src="4e36093adfa24022275776c95283995a4fd66d68486857aa24904253939a4b4d.png" title="Juan clicks on Genero adulto 2" width="1366"/>
-                <img src="72fdeef94e0d0ff8a47061bb0731e240116c65f84453207eff2b13e23793cd19.png" title="Juan enters '1214725496' into Documento adulto 2" width="1366"/>
-                <img src="f0aa2f57623fdc85c54c864550d43eb5555d5df26dca0e389a15dae429e0c4d5.png" title="Juan enters 'Carlos' into Nombre ni&ntilde;o" width="1366"/>
-                <img src="f424ab7e87bbf3d213f0422b9b4e009c78135558916dc517c7d5703679601dbe.png" title="Juan enters 'Arias' into Apellido ni&ntilde;o" width="1366"/>
-                <img src="ac9efbaa86a2829a2f88d49bcc08db0a3b57c89fb1c5a6cccd9776c2e6ebd55e.png" title="Juan enters '12/10/2010' into Fecha nacimiento ni&ntilde;o" width="1366"/>
-                <img src="250b5be69622bc254fe221c6e87ac34d24f5b3c96277427b31cace44ba9c42ca.png" title="Juan clicks on Genero ni&ntilde;o" width="1366"/>
-                <img src="e6a877491a0f33df8abd9c8befe0f7ba28c8a3d133107188cee21ffab83256b4.png" title="Juan enters '1568745693' into Documento ni&ntilde;o" width="1366"/>
-                <img src="2f216933bef8aef385a9e6da98e4dd9641b8189dc0de4c72e06b2075af06a162.png" title="Juan enters 'Andres' into Nombre infante" width="1366"/>
-                <img src="bc912a78ce73b1504a3b9e81a45dab3719c833bb510b33a13ff670c11d7a6c97.png" title="Juan enters 'Arias' into Apellido infante" width="1366"/>
-                <img src="6e9a8ea979af44087245cee2fa83625820f03d794c7257cb0a9693780ed73f74.png" title="Juan enters '18/12/2018' into Fecha nacimiento infante" width="1366"/>
-                <img src="07daebbf0c3e6fa219633989ffad31e7381ac170b71aebeb5b3ae616b3e17cb6.png" title="Juan clicks on Viajando con" width="1366"/>
-                <img src="6b8840bd918d827c8e3c1fb767c22580a881b74b8ab4824290294d0c7641fe6b.png" title="Juan clicks on Boton continuar" width="1366"/>
-                <img src="52cfea3c47c1bd6bc0abaa5b3a6a52001b7d516a3496550bafa3251e356d591c.png" title="Juan clicks on Equipaje cabina adulto 1" width="1366"/>
-                <img src="34180bb624ce3e481d5d291b2b9fffb30340ccaae9127834a4247350e9fc862a.png" title="Juan clicks on Equipaje cabina adulto 2" width="1366"/>
-                <img src="934b6f4ffa15ff60ce93c1db299f1d62d5692085841b05909468fd9ada1e5992.png" title="Juan clicks on Equipaje cabina ni&ntilde;o" width="1366"/>
-                <img src="55d85233481b9d9f5705294a5b972ae8bbf302c628a8092bc8f5990f3cb407db.png" title="Juan clicks on Equipaje adicional 1 adulto 1" width="1366"/>
-                <img src="76f84501b9d52b563c7f5149f94408ac0187611d908b326c3630ff20a48ac7db.png" title="Juan clicks on Equipaje adicional 1 adulto 2" width="1366"/>
-                <img src="03af869e6c399472be30125637f37e33513980cbfc90089297413817b96e61f0.png" title="Juan clicks on Equipaje adicional 1 nino" width="1366"/>
-                <img src="7799227cd337ab03fb2737e9990c288cc62c8d43ee06eed358b8e33ecde89958.png" title="Juan clicks on Check-in adulto 1" width="1366"/>
-                <img src="ba210863174d491d81ded57701b2833655c90e5073bd76457ee4a8caf5091fef.png" title="Juan clicks on Check-in adulto 2" width="1366"/>
-                <img src="169cffd172ebce0035c538dbb588ddb0941b1d53e03f1a3df95a9e54657ddcb2.png" title="Juan clicks on Check-in ni&ntilde;o" width="1366"/>
-                <img src="65fcfeb682dcffeef4d7bc90982672e19643dde4955273bcfc18e45ad2aee271.png" title="Juan clicks on Fila rapida" width="1366"/>
-                <img src="bbe7a179a85c876a88011f501dd8af9e255ddf0d64ffb0950b6b4d71083b265e.png" title="Juan clicks on Checkbox seguro de viaje" width="1366"/>
-                <img src="48e776cdc7ad66ef981d0d86800f18fa7f160821afd7c12f5c208a3e8788bddf.png" title="Juan clicks on Boton continuar" width="1366"/>
-                <img src="e10fef0cb0d8f73ee122efe19d7c11f76d565e02d391b893d0e79c6e13218b04.png" title="Juan clicks on Boton no seleccionar asiento" width="1366"/>
-                <img src="087c3663986311b3c5d64f11348e21fcc43cfd7687e986704c152a4a8f77f84f.png" title="Entonces verifica que los servicios adicionales no tengan ningun costo" width="1366"/>
-                <img src="087c3663986311b3c5d64f11348e21fcc43cfd7687e986704c152a4a8f77f84f.png" title="Then verificar servicios adicionales should be '0.00': <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="47b419f4ab19ad7051416d2e27f881e5d2258bb285629cdde8a6e3804b0b759a.png" title="Juan enters 'Roberto' into Nombre adulto 1" width="1366"/>
+                <img src="ae86702075822ebe7d59af07f5670c9857afb884139b692590c6fdb716b63edf.png" title="Juan enters 'Arias' into Apellido adulto 1" width="1366"/>
+                <img src="3da62924279041b552a2dbd6095085ce880cbd141ea28745730bf5e6a407e9a7.png" title="Juan clicks on Genero adulto 1" width="1366"/>
+                <img src="243ffa49432579b4cc0cc5917bf44517cddd6f575c68fbda7485489491969463.png" title="Juan enters '1152203458' into Documento adulto 1" width="1366"/>
+                <img src="f5bc176679ca9d87fa75f085a7a31817ed90268b5b6ff5a92281f0083711349b.png" title="Juan enters 'rob@ct.com' into Correo" width="1366"/>
+                <img src="4f332901de7b31f5b1dd9971e76dbccbfee797b18dec62ed7150134d04753e40.png" title="Juan enters 'rob@ct.com' into Confirmar correo" width="1366"/>
+                <img src="9b9432ebe52005f9ea9ff22d85ff7b44d911dfd8477f2dd55cb72bc077e7ed99.png" title="Juan enters '3165898796' into Celular" width="1366"/>
+                <img src="b43b9ca8fbc4b1e13aac1ad4a8348c07cb1bf4949c5878778fc7a2643c107156.png" title="Juan enters 'Daniela' into Nombre adulto 2" width="1366"/>
+                <img src="576d7bb11f1a2f1041c97db1d870e6c3ca3ad3418ba95d1d45067c129ac8d4a3.png" title="Juan enters 'Alzate' into Apellido adulto 2" width="1366"/>
+                <img src="a543ebb9fad3e58996cb0544d51ab7c89dae13c898ca65f825a43e99e8942b60.png" title="Juan clicks on Genero adulto 2" width="1366"/>
+                <img src="2b8937c0a065370cc2f11d914575e4858f608ee60d6e6c14656454618f8c8750.png" title="Juan enters '1214725496' into Documento adulto 2" width="1366"/>
+                <img src="16ea7796c4d8fea9d1b4ec2fc7eb805fb6097fae36841090c13dabfaf696fb3c.png" title="Juan enters 'Carlos' into Nombre ni&ntilde;o" width="1366"/>
+                <img src="380b35e52efc40c957c887f6a58cce88db9b90ebe3cfcfd453cfa7e60118bb0b.png" title="Juan enters 'Arias' into Apellido ni&ntilde;o" width="1366"/>
+                <img src="b5d51821376318f36e128940410e97ebff654523e4e467d84d7a49a5e66f3df3.png" title="Juan enters '12/10/2010' into Fecha nacimiento ni&ntilde;o" width="1366"/>
+                <img src="ad86fd72432d44408d254ee7c57bed7095afe1680aff3615e0ec1b1a56d284a8.png" title="Juan clicks on Genero ni&ntilde;o" width="1366"/>
+                <img src="4dfe85dadc9268ae7f64ca709b7a27b86ed59a59c40c036775a16750765d4d20.png" title="Juan enters '1568745693' into Documento ni&ntilde;o" width="1366"/>
+                <img src="5dcb802117761f6bd93d93f9ffe8575691523132607c4f9c7f38b9e8c1ea282d.png" title="Juan enters 'Andres' into Nombre infante" width="1366"/>
+                <img src="16cb9f165e7fa89d82a79c4992ebfbbf913f029658ce4940a7cbc250459cb7d1.png" title="Juan enters 'Arias' into Apellido infante" width="1366"/>
+                <img src="ee68862067aff744a6545c1a2544613cc6f5b43fcada2600e25f6c998666e8e5.png" title="Juan enters '18/12/2018' into Fecha nacimiento infante" width="1366"/>
+                <img src="43ea382bce797be8f72974ebf4f9d38025f6244cc7a0c10cc9c10d55a7a8b40d.png" title="Juan clicks on Viajando con" width="1366"/>
+                <img src="e76f0da122ff0b642b2c726251fa9af87a43964cd836be74710183b3b8017bf0.png" title="Juan clicks on Boton continuar" width="1366"/>
+                <img src="403b44db5b9de3f19bd9f6717107895b2c65c79d424bc34eaade46f48bfcd8aa.png" title="Juan clicks on Equipaje cabina adulto 1: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

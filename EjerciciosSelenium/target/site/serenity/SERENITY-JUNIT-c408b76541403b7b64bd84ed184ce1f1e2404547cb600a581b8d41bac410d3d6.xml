@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Autenticación en el sitio web Colorlib" skipped="0" tests="2" time="47.17" timestamp="2019-03-11 01:12:29"><testcase name="Ingresar una palabra en el textbox y verificarla en el mensaje"/><testcase name="Ingresaar dos números enteros y sumarlos"/></testsuite>

@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2019 09:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-03-2019 08:32</span>
     <br style="clear:left"/>
 </div>
 
@@ -156,9 +156,9 @@ A través del sistema de Administración de Hospitales
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Realizar el agendamiento de una cita
+                                <span class="error-color">Realizar el agendamiento de una cita
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -175,22 +175,68 @@ A través del sistema de Administración de Hospitales
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=72.0.3626.121)  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF0GXFK0', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\usuario\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}Session ID: 0e8758b78f2707d378a73c9a767db9c2*** Element info: {Using=xpath, value=//p[contains(text(),'Datos guardados correctamente.')]}">
+                            Assertion error: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=72.0.3626.121)  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT ...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>no such window: target window already closed<br>from unknown error: web view not found<br>  (Session info: chrome=72.0.3626.121)<br>  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 0 milliseconds<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF0GXFK0', ip: '192.168.139.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users&#92;suario\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}<br>Session ID: 0e8758b78f2707d378a73c9a767db9c2<br>*** Element info: {Using=xpath, value=//p[contains(text(),'Datos guardados correctamente.')]}</pre>
+                                    </h5>
+                                    co.com.retotres.screenplay.stepdefinitions.RegistrarCitaStepDefinitions.elVerificaEnPantallaQueLaCitaEsAgendadaConElMensajeDatosGuardadosCorrectamente(RegistrarCitaStepDefinitions.java
+                                    :46) <br>
+                                    ✽.el verifica en pantalla que la cita es agendada con el mensaje Datos guardados correctamente.(src/test/resources/features/gestionar_cita_medica.feature
+                                    :33) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="0ee65e108a41e1ef5add7a993af79583a96e580d8620671a55b073bba5361315.png" title="Dado que Carlos necesita asistir al medico" width="1366"/>
                 <img src="0ee65e108a41e1ef5add7a993af79583a96e580d8620671a55b073bba5361315.png" title="Carlos opens the Administracion de hospitales pagina principal" width="1366"/>
-                <img src="3475bd34b8e59a9a014bd77b2ab549d2c888b331af62e4929b71c313239befbe.png" title="Cuando el realiza el agendamiento de una Cita
+                <img src="6657155fb163a515903a63002e54f1ad926432c075fd8cb18494892bc0d33484.png" title="Cuando el realiza el agendamiento de una Cita
 | fecha_cita | documento_paciente | documento_doctor | observaciones |
 | 02/08/2019 | 13456789 | 23456987 | cita general |" width="1366"/>
                 <img src="f35350b8857a95cecffccd5a2a85065a8cef17e7152c5a9290861c5eaa5680b3.png" title="Carlos clicks on La opci&oacute;n permite ingresar a agendar la cita m&eacute;dica" width="1366"/>
-                <img src="70d0125dfc71a341e8f3351ce34d7723671a111b20509e39df811d6e14e0ecd6.png" title="Carlos enters '02/08/2019' into El campo permite ingresar la fecha de la cita" width="1366"/>
-                <img src="cd0f0778d084c5507a7d1a19fed9b91f221ba3c6cfc3905685d08d57bec9182e.png" title="Carlos clicks on El campo permite ingresar las observaciones" width="1366"/>
-                <img src="4ecf48fd6605ce1fcd12dc3b0492349e41a73a05fd55fce9b7f3931cc845a42e.png" title="Carlos enters '13456789' into El campo permite ingresar el documento del paciente" width="1366"/>
-                <img src="94ec5a98e9dc105a2fe8b9857bb4be719c718c75bd4bf133d8b9604557dab2e5.png" title="Carlos enters '23456987' into El campo permite ingresar el documento del doctor" width="1366"/>
-                <img src="fff65e74c69df46f4e33991594e5ee399ba8030d2d1135b41bbb8e17d4ecc7dd.png" title="Carlos enters 'cita general' into El campo permite ingresar las observaciones" width="1366"/>
-                <img src="3475bd34b8e59a9a014bd77b2ab549d2c888b331af62e4929b71c313239befbe.png" title="Carlos clicks on El bot&oacute;n permite guardar los datos del doctor" width="1366"/>
-                <img src="3475bd34b8e59a9a014bd77b2ab549d2c888b331af62e4929b71c313239befbe.png" title="Entonces el verifica en pantalla que la cita es agendada con el mensaje Datos guardados correctamente." width="1366"/>
-                <img src="3475bd34b8e59a9a014bd77b2ab549d2c888b331af62e4929b71c313239befbe.png" title="Then datos paciente guardados should be 'Datos guardados correctamente.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="3166429551750f3818d5fd467e65e9e4a53bf5d4a1b6f2b6bffd3f1837eb1ab6.png" title="Carlos enters '02/08/2019' into El campo permite ingresar la fecha de la cita" width="1366"/>
+                <img src="66a0e229f6410ec04d67059f8fc85697cd1b06384e4b6b27bc2dae5610ab4ff8.png" title="Carlos clicks on El campo permite ingresar las observaciones" width="1366"/>
+                <img src="b9607ac9439a8784da65bb57bff7e6234ba5ac299055bc703c6b56c8559e042c.png" title="Carlos enters '13456789' into El campo permite ingresar el documento del paciente" width="1366"/>
+                <img src="08d5098da847b94764bf2a0b8671498e393ec6fc370d236c6d72cb22755d4937.png" title="Carlos enters '23456987' into El campo permite ingresar el documento del doctor" width="1366"/>
+                <img src="749db0fec32f67d41b57484dbb44873fe2d0d37237bb262216ebd472c2f9149e.png" title="Carlos enters 'cita general' into El campo permite ingresar las observaciones" width="1366"/>
+                <img src="6657155fb163a515903a63002e54f1ad926432c075fd8cb18494892bc0d33484.png" title="Carlos clicks on El bot&oacute;n permite guardar los datos del doctor: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
